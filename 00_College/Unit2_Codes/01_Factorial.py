@@ -1,10 +1,13 @@
+# Program to find factorial of a given number
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
-    return n * factorial(n - 1)
+    return n * factorial(n-1)
 
-num = int(input("Enter a number: "))
-print(f"Factorial of {num} is {factorial(num)}")
+num = int(input("Enter the postive number : "))
+result = factorial(num)
+print(f"Factorial of {num} is {result}")
 
 
 

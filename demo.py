@@ -35,10 +35,24 @@
 
 
 
-l = ['Python', 'programming', 'is', 'easy']
-print(type(l))  
-# Output: <class 'list'>
 
-s = ','.join(l)  # Joining with space as separator
-print(s)  
-# Output: 'Python programming is easy'
+
+
+# l = ['Python', 'programming', 'is', 'easy']
+# print(type(l))  
+# # Output: <class 'list'>
+
+# s = ','.join(l)  # Joining with space as separator
+# print(s)  
+# # Output: 'Python programming is easy'
+
+
+
+
+
+
+for i in range(1, 11):			
+    if i % 2 == 0:  # if even?
+        pass  # do nothing for even numbers
+    else:  # if odd?
+        print("odd numbers:", i)

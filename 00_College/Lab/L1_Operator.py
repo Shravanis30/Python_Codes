@@ -59,7 +59,7 @@ print("Age1:", age1, " &  Age2:", age2)
 print("Is age1 equal to age2?                   :", age1 == age2)   # False
 print("Is age1 not equal to age2?               :", age1 != age2)   # True
 print("Is age1 greater than age2?               :", age1 > age2)    # False
-print("Is age1 less than age2?                  :", age1 > age2)    # False
+print("Is age1 less than age2?                  :", age1 < age2)    # False
 print("Is age1 less than or equal to age2?      :", age1 <= age2)   # True
 print("Is age1 greater than or equal to age2?   :", age1 >= age2)   # False
 
@@ -120,5 +120,6 @@ sentence = "Python is amazing!"
 
 print()
 print("Membership Operators")
+print("sentence = ", sentence)
 print("Is 'Python' in the sentence?     :", "Python" in sentence)     # True
 print("Is 'Java' not in the sentence?   :", "Java" not in sentence) # True

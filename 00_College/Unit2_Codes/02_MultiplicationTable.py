@@ -4,5 +4,5 @@ num = int(input("Enter the number : "))
 
 i = 0
 while(i<=10):
-    print(f"2 X {i} = {num*i}")
+    print(f"{num} X {i} = {num*i}")
     i = i+1

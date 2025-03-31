@@ -4,10 +4,10 @@ import math
 
 def IsPerfectNumber(n):
     if n < 1:
-        print("Enter the value greater than ")
-        return false
-        
-    SumOfDivisors = sum(i for i in range(1, n) if n % i == 0)
+        print("Enter the value greater than 0")
+        return False
+    SumOfDivisors = sum(i for i in range(1, n) 
+                            if n % i == 0)
     return SumOfDivisors == n
 
 num = int(input("Enter the number : "))
